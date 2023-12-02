@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #006341;
+            margin: 0px;
+        }
+        header {
+            background-color: gold;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav    {
+            background-color: black;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+
+    
+        nav > a   {
+            text-decoration: none;
+            color: gold;
+            padding: 3px;
+
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            margin-right: 30px;
+        }
+
+        main  {
+            background-color: gold;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.438);
+        }
+        article   {
+            background-color: black;
+            color: gold;
+            font-size: 17px;
+            padding: 5px;
+        }
+
+        article > aside  {
+            background-color: #003321;
+        }
+        footer {
+            background-color: black;
+            color: gold;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0%;
+        }
+        div#bola  {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: gold;
+            border-radius: 50%;
+         
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cardax</h1>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">work</a>
+            <a href="#">cia</a>
+            <a href="#">bussness</a>
+            <a href="#">drop</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="news">
+            <article>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, doloremque accusamus voluptates sit molestiae reiciendis dignissimos laboriosam voluptatibus, repudiandae omnis, cumque consectetur adipisci illo. Fugit sed consectetur quidem officiis aut.</p>
+                <aside>
+            <p>Artigo escrito por Tio Barnabé</p>
+         </aside>       
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+        <section id="24h">
+
+        </section>
+
+    </main>
+    <footer>
+     Desenvolvido pelo ANtraX
+    </footer>
+    <div id="bola"></div>
+
+</body>
+</html>
